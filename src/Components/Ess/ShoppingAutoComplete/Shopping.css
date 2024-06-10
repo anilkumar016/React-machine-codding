@@ -1,0 +1,29 @@
+.shopping-list{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.row-autocomple{
+    background-color: rgb(171, 195, 216);
+    height: 200px;
+    overflow-y: auto;
+    margin-top: 2px;
+}
+.list-item{
+    padding: 5px;
+    cursor: pointer;
+}
+.list-item:hover{
+    background-color: aqua;
+}
+.shop-list-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    background-color: aliceblue;
+}
+.strike{
+    text-decoration: line-through;
+    background-color: rgb(211, 174, 125);
+}

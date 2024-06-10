@@ -1,0 +1,31 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.row{
+    width: 300px;
+    padding: 5px;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+}
+.auto-serach{
+    width: 289px;
+    text-align: left;
+}
+.item{
+    margin: 2px;
+    border: 0.5px solid aliceblue;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    background-color: aliceblue;
+}
+.item:hover{
+    background-color: azure;
+}

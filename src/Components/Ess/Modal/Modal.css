@@ -1,0 +1,33 @@
+.btn-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.btn{
+    background-color: rgb(133, 173, 53);
+    color:#fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-modal{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn-custom-content{
+    border: 1px solid #9eaab5;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+.btn-modal-content{
+    height:250px;
+    text-align: center;
+    padding: 100px;
+}
+.bgClass{
+    background-color: aliceblue;
+}

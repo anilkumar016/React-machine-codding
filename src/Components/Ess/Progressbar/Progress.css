@@ -1,0 +1,11 @@
+.progress-container {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+    margin-top: 50px;
+}
+.progress-row{
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+}

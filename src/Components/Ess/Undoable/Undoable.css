@@ -1,0 +1,40 @@
+.counter-container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.undo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width:70px;
+    height:40px;
+    border:none;
+    outline: none;
+    color: #fff;
+    background-color: #484834;
+    cursor: pointer;
+    border-radius: 5px;
+    margin:20px;
+
+}
+.counter-text{
+    font-size: 30px;
+    font-weight: bold;
+}
+.history-container{
+    border: 1px solid green;
+    width: 300px;
+    height: 200Px;
+    overflow-y: auto;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+}
+

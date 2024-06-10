@@ -1,0 +1,28 @@
+.parent{
+    margin-top: 20px;
+}
+.row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-row{
+    width:200px;
+}
+.list-row{
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    width:120px;
+    text-align: left;
+}
+.up{
+    color:green;
+}
+.down{
+    color:red
+}
